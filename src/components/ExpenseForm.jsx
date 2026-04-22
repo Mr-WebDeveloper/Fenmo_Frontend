@@ -198,7 +198,7 @@ export default function ExpenseForm({ onAdded }) {
               <span className="spinner" /> Saving…
             </>
           ) : (
-            "💾 Save Expense"
+            "Save Expense"
           )}
         </button>
       </form>
