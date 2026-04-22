@@ -1,16 +1,61 @@
-# React + Vite
+# 🎨 Expense Tracker (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple frontend application for managing personal expenses.
+Built to interact with the backend API and provide a clean user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Tech Stack
 
-## React Compiler
+* Vite
+* React
+* Axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Project Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Navigate to frontend
+
+```bash
+cd frontend
+```
+
+---
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+---
+
+## ▶️ Running the App
+
+```bash
+npm run dev
+```
+
+App runs at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔗 Features
+
+* Add new expense (amount, category, description, date)
+* View expense list
+* Filter by category
+* Sort by date (newest first)
+* View total expenses dynamically
+
+---
+
+## 📌 Notes
+
+* Ensure backend is running at `http://localhost:8000`
+* API base URL is configured using environment variables
+* Designed for clean structure and future scalability
